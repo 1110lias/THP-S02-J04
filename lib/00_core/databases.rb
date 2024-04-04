@@ -15,9 +15,9 @@ def db_select(ext_request)
         "\e[33m11 - Quitter le programme\e[0m"
     ]
 
-if ext_request == 1
-        dbtosend = db_handles
-elsif ext_request == 2
+    if ext_request == 1
+            dbtosend = db_handles
+    elsif ext_request == 2
         dbtosend = db_menu
     else
         dbtosend = "Commande Inconnue"
