@@ -73,13 +73,6 @@ def action_09
 end
 
 def action_10
-    puts "Veuillez inscrire le blazz souhaité (le ''@''sera ajouté automatiquement)"
-    add_blazz = gets.chomp
-    db_handles << "@" +add_blazz
-    print "@#{add_blazz} ajouté à la liste de handle twitter."
-end
-
-def action_11
     puts"Suppression des Handles en cours"
     for i in (1..15)
         print ". "

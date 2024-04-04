@@ -11,8 +11,7 @@ def db_select(ext_request)
         "\e[33m07 - Connaitre la position d'un handle\e[0m",
         "\e[33m08 - Afficher des statistiques de longueur\e[0m",
         "\e[33m09 - Supprimer tous les handles\e[0m",
-        "\e[33m10 - Ajouter un handle\e[0m",
-        "\e[33m11 - Quitter le programme\e[0m"
+        "\e[33m10 - Quitter le programme\e[0m"
     ]
 
     if ext_request == 1
